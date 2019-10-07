@@ -43,4 +43,5 @@ chekTime = order['lock_time'] - order['use_start_time']
 print('平均点餐时间为：',chekTime.mean())
 print('最小点餐时间为：',chekTime.min())
 print('最大点餐时间为：',chekTime.max())
-
+# 使用describe方法
+print(chekTime.describe())
